@@ -1,2 +1,11 @@
-# parcial-parte-1
-parcial 1 
+public class FactorialIterativo {
+    public static long factorial(int n) {
+        long resultado = 1;
+        for (int i = 1; i <= n; i++) {
+            resultado *= i;
+        }
+        return resultado;
+    }
+
+    
+}
